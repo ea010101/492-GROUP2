@@ -1,0 +1,136 @@
+
+Using files:
+SHIPMENT_FILE      = C:\Users\emrec\Documents\parallel_scheduling\heuristicandexact\492-güncel sevkiyat.xlsx
+SDST_FILE          = C:\Users\emrec\Documents\parallel_scheduling\heuristicandexact\SDST.xlsx
+MACHINE_GROUP_FILE = C:\Users\emrec\Documents\parallel_scheduling\heuristicandexact\machine_group_data.xlsx
+GUROBI_LOG_FILE    = C:\Users\emrec\Documents\parallel_scheduling\heuristicandexact\gurobi_exact_full.log
+
+Loading data...
+Duplicate order rows aggregated: 28 -> 27 unique jobs
+Jobs          : 27
+Machines      : ['T.3', 'T.3.1', 'T.3.10', 'T.3.11', 'T.3.12', 'T.3.2', 'T.3.3', 'T.3.4', 'T.3.6', 'T.3.7', 'T.3.8', 'T.3.9']
+Planning start: 2026-04-29 07:00:00
+
+Solving...
+
+Schedule horizon : 14280 min  (238.0 h)
+Big-M used       : 50000  (revised from 10**7 = 10000000; 200x tighter)
+Tasks            : 108
+Set parameter Username
+Set parameter LicenseID to value 2797590
+Academic license - for non-commercial use only - expires 2027-03-24
+Set parameter LogFile to value "C:\Users\emrec\Documents\parallel_scheduling\heuristicandexact\gurobi_exact_full.log"
+Set parameter MIPGap to value 0.05
+Set parameter OutputFlag to value 1
+Set parameter TimeLimit to value 21600
+Set parameter MIPFocus to value 1
+Set parameter NoRelHeurTime to value 120
+
+Model size:
+  Total variables : 29,196
+  Binary          : 23,984
+  Integer         : 108
+  Continuous      : 5,104
+  Constraints     : 72,708
+  GenConstrs      : 3,564
+  Arc keys        : 21,392
+
+Gurobi log       : C:\Users\emrec\Documents\parallel_scheduling\heuristicandexact\gurobi_exact_full.log
+Time limit       : 21600 sec (6 h)
+MIPFocus         : 1 (feasibility-first)
+NoRelHeurTime    : 120 sec
+
+WARM START yüklendi (SADECE binary/integer: active, qty, z_group, qty_group, x, arc, first, last):
+  Kaynak        : C:\Users\emrec\Documents\parallel_scheduling\heuristicandexact\heuristic_warm_start.json
+  Initial OT    : 3256.9 dk  (referans değer, Incumbent garantisi değil)
+  .Start atanan : 22823 değişken
+  group ataması, atanan makinenin gerçek grubundan türetildi (x ile tutarlı)
+  arc/first/last, makine üzerindeki gerçek start_min sırasından türetildi (x ile tutarlı)
+  S, C, proc_time, ot_vars, job_finish, makespan: Gurobi kendi hesaplayacak (dokunulmadı).
+Gurobi Optimizer version 12.0.1 build v12.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  21600
+MIPGap  0.05
+MIPFocus  1
+NoRelHeurTime  120
+
+Optimize a model with 72708 rows, 29196 columns and 214455 nonzeros
+Model fingerprint: 0x7a7ab972
+Model has 3564 simple general constraints
+  2376 MAX, 1188 MIN
+Variable types: 5104 continuous, 24092 integer (23984 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 5e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 5e+04]
+  RHS range        [1e+00, 1e+05]
+  GenCon const rng [6e+02, 2e+04]
+
+User MIP start produced solution with objective 916.847 (1.44s)
+User MIP start produced solution with objective 740.774 (1.49s)
+User MIP start produced solution with objective 608.346 (1.84s)
+User MIP start produced solution with objective 523.24 (1.95s)
+User MIP start produced solution with objective 413.425 (1.96s)
+User MIP start produced solution with objective 397.828 (2.03s)
+User MIP start produced solution with objective 370.846 (2.05s)
+User MIP start produced solution with objective 348.299 (2.09s)
+User MIP start produced solution with objective 284.029 (2.14s)
+User MIP start produced solution with objective 220.311 (2.20s)
+User MIP start produced solution with objective 196.423 (2.22s)
+User MIP start produced solution with objective 174.066 (2.30s)
+User MIP start produced solution with objective 86.2842 (2.32s)
+User MIP start produced solution with objective 63.9269 (2.34s)
+Loaded user MIP start with objective 63.9269
+Processed MIP start in 2.32 seconds (0.32 work units)
+
+Presolve removed 57336 rows and 12274 columns (presolve time = 5s)...
+Presolve removed 65201 rows and 19716 columns (presolve time = 19s)...
+Presolve removed 54813 rows and 11772 columns
+Presolve time: 18.98s
+Presolved: 17895 rows, 17424 columns, 132069 nonzeros
+Variable types: 1646 continuous, 15778 integer (15764 binary)
+Starting NoRel heuristic
+Found heuristic solution: objective 33.9059545
+Found heuristic solution: objective 0.0000000
+NoRel heuristic complete
+
+Explored 0 nodes (0 simplex iterations) in 23.89 seconds (4.95 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 10: 0 33.906 63.9269 ... 370.846
+
+Optimal solution found (tolerance 5.00e-02)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi Status  : 2
+Solution Count : 10
+Warm start OT  : 3256.9 dk (referans)
+Objective (Gurobi Incumbent) : 0.0000 dk
+Best Bound                   : 0.0000 dk
+MIP Gap                      : 0.00%
+Karşılaştırma: heuristic initial OT = 3256.9 dk vs Gurobi incumbent = 0.0 dk
+
+=======================================================
+CPU Time    : 336.58 sec  (0.093 h)
+Peak Memory : 228.57 MB  (0.223 GB)
+Big-M used  : 50000
+Tardiness   : 1.5 days = 2160 min
+=======================================================
+
+Extracting solution...
+Building validation...
+Exporting Excel...
+Exporting Gantt...
+
+Done.
+Schedule Excel   : C:\Users\emrec\Documents\parallel_scheduling\heuristicandexact\optimized_exact_gurobi_schedule_split.xlsx
+Validation Excel : C:\Users\emrec\Documents\parallel_scheduling\heuristicandexact\verification_validation_exact_gurobi_split.xlsx
+Gantt HTML       : C:\Users\emrec\Documents\parallel_scheduling\heuristicandexact\exact_gurobi_gantt_split.html
+Gurobi log       : C:\Users\emrec\Documents\parallel_scheduling\heuristicandexact\gurobi_exact_full.log
+Objective        : 0.0
+MIP Gap          : 0.00%
+Total OT (min)   : 0.0
