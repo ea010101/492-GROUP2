@@ -1,0 +1,330 @@
+
+Gurobi 12.0.1 (win64) logging started Tue Jun 30 12:22:25 2026
+
+Set parameter LogFile to value "C:\Users\emrec\Documents\parallel_scheduling\exactkucuksplit\gurobi_exact_small.log"
+Set parameter MIPGap to value 0.05
+Set parameter OutputFlag to value 1
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 12.0.1 build v12.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0.05
+
+Optimize a model with 699 rows, 392 columns and 1860 nonzeros
+Model fingerprint: 0x9cd5c25b
+Model has 108 simple general constraints
+  72 MAX, 36 MIN
+Variable types: 184 continuous, 208 integer (196 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+04]
+  RHS range        [1e+00, 1e+04]
+  GenCon const rng [6e+02, 4e+03]
+Presolve removed 467 rows and 172 columns
+Presolve time: 0.02s
+Presolved: 232 rows, 220 columns, 1656 nonzeros
+Variable types: 56 continuous, 164 integer (162 binary)
+Found heuristic solution: objective 480.0000000
+
+Root relaxation: objective 0.000000e+00, 95 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    2  480.00000    0.00000   100%     -    0s
+H    0     0                      20.7142857    0.00000   100%     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  Flow cover: 2
+
+Explored 1 nodes (288 simplex iterations) in 0.06 seconds (0.02 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 0 20.7143 480 
+
+Optimal solution found (tolerance 5.00e-02)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 12.0.1 (win64) logging started Tue Jun 30 12:22:25 2026
+
+Set parameter LogFile to value "C:\Users\emrec\Documents\parallel_scheduling\exactkucuksplit\gurobi_exact_small.log"
+Set parameter MIPGap to value 0.05
+Set parameter OutputFlag to value 1
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 12.0.1 build v12.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0.05
+
+Optimize a model with 699 rows, 392 columns and 1860 nonzeros
+Model fingerprint: 0x9cd5c25b
+Model has 108 simple general constraints
+  72 MAX, 36 MIN
+Variable types: 184 continuous, 208 integer (196 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+04]
+  RHS range        [1e+00, 1e+04]
+  GenCon const rng [6e+02, 4e+03]
+Presolve removed 467 rows and 172 columns
+Presolve time: 0.02s
+Presolved: 232 rows, 220 columns, 1656 nonzeros
+Variable types: 56 continuous, 164 integer (162 binary)
+Found heuristic solution: objective 480.0000000
+
+Root relaxation: objective 0.000000e+00, 95 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    2  480.00000    0.00000   100%     -    0s
+H    0     0                      20.7142857    0.00000   100%     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  Flow cover: 2
+
+Explored 1 nodes (288 simplex iterations) in 0.06 seconds (0.02 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 0 20.7143 480 
+
+Optimal solution found (tolerance 5.00e-02)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 12.0.1 (win64) logging started Tue Jun 30 12:25:43 2026
+
+Set parameter LogFile to value "C:\Users\emrec\Documents\parallel_scheduling\exactkucuksplit\gurobi_exact_small.log"
+Set parameter MIPGap to value 0.05
+Set parameter OutputFlag to value 1
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 12.0.1 build v12.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0.05
+
+Optimize a model with 699 rows, 392 columns and 1860 nonzeros
+Model fingerprint: 0x9cd5c25b
+Model has 108 simple general constraints
+  72 MAX, 36 MIN
+Variable types: 184 continuous, 208 integer (196 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+04]
+  RHS range        [1e+00, 1e+04]
+  GenCon const rng [6e+02, 4e+03]
+Presolve removed 467 rows and 172 columns
+Presolve time: 0.02s
+Presolved: 232 rows, 220 columns, 1656 nonzeros
+Variable types: 56 continuous, 164 integer (162 binary)
+Found heuristic solution: objective 480.0000000
+
+Root relaxation: objective 0.000000e+00, 95 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    2  480.00000    0.00000   100%     -    0s
+H    0     0                      20.7142857    0.00000   100%     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  Flow cover: 2
+
+Explored 1 nodes (288 simplex iterations) in 0.06 seconds (0.02 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 0 20.7143 480 
+
+Optimal solution found (tolerance 5.00e-02)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 12.0.1 (win64) logging started Tue Jun 30 12:25:43 2026
+
+Set parameter LogFile to value "C:\Users\emrec\Documents\parallel_scheduling\exactkucuksplit\gurobi_exact_small.log"
+Set parameter MIPGap to value 0.05
+Set parameter OutputFlag to value 1
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 12.0.1 build v12.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0.05
+
+Optimize a model with 699 rows, 392 columns and 1860 nonzeros
+Model fingerprint: 0x9cd5c25b
+Model has 108 simple general constraints
+  72 MAX, 36 MIN
+Variable types: 184 continuous, 208 integer (196 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+04]
+  RHS range        [1e+00, 1e+04]
+  GenCon const rng [6e+02, 4e+03]
+Presolve removed 467 rows and 172 columns
+Presolve time: 0.01s
+Presolved: 232 rows, 220 columns, 1656 nonzeros
+Variable types: 56 continuous, 164 integer (162 binary)
+Found heuristic solution: objective 480.0000000
+
+Root relaxation: objective 0.000000e+00, 95 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    2  480.00000    0.00000   100%     -    0s
+H    0     0                      20.7142857    0.00000   100%     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  Flow cover: 2
+
+Explored 1 nodes (288 simplex iterations) in 0.06 seconds (0.02 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 0 20.7143 480 
+
+Optimal solution found (tolerance 5.00e-02)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 12.0.1 (win64) logging started Tue Jun 30 12:28:13 2026
+
+Set parameter LogFile to value "C:\Users\emrec\Documents\parallel_scheduling\exactkucuksplit\gurobi_exact_small.log"
+Set parameter MIPGap to value 0.05
+Set parameter OutputFlag to value 1
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 12.0.1 build v12.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0.05
+
+Optimize a model with 699 rows, 392 columns and 1860 nonzeros
+Model fingerprint: 0x864422bf
+Model has 108 simple general constraints
+  72 MAX, 36 MIN
+Variable types: 184 continuous, 208 integer (196 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+04]
+  RHS range        [1e+00, 1e+04]
+  GenCon const rng [6e+02, 4e+03]
+Presolve removed 467 rows and 172 columns
+Presolve time: 0.02s
+Presolved: 232 rows, 220 columns, 1656 nonzeros
+Variable types: 56 continuous, 164 integer (162 binary)
+Found heuristic solution: objective 461.0833333
+
+Root relaxation: objective 0.000000e+00, 116 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    6  461.08333    0.00000   100%     -    0s
+H    0     0                     310.3690476    0.00000   100%     -    0s
+H    0     0                      41.0833333    0.00000   100%     -    0s
+     0     0    0.00000    0   18   41.08333    0.00000   100%     -    0s
+H    0     0                       1.6845238    0.00000   100%     -    0s
+H    0     0                       0.4428571    0.00000   100%     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  MIR: 3
+  Flow cover: 4
+  Relax-and-lift: 1
+
+Explored 1 nodes (255 simplex iterations) in 0.08 seconds (0.02 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 6: 0 0.442857 1.68452 ... 461.083
+
+Optimal solution found (tolerance 5.00e-02)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 12.0.1 (win64) logging started Tue Jun 30 12:28:13 2026
+
+Set parameter LogFile to value "C:\Users\emrec\Documents\parallel_scheduling\exactkucuksplit\gurobi_exact_small.log"
+Set parameter MIPGap to value 0.05
+Set parameter OutputFlag to value 1
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 12.0.1 build v12.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0.05
+
+Optimize a model with 699 rows, 392 columns and 1860 nonzeros
+Model fingerprint: 0x864422bf
+Model has 108 simple general constraints
+  72 MAX, 36 MIN
+Variable types: 184 continuous, 208 integer (196 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+04]
+  RHS range        [1e+00, 1e+04]
+  GenCon const rng [6e+02, 4e+03]
+Presolve removed 467 rows and 172 columns
+Presolve time: 0.02s
+Presolved: 232 rows, 220 columns, 1656 nonzeros
+Variable types: 56 continuous, 164 integer (162 binary)
+Found heuristic solution: objective 461.0833333
+
+Root relaxation: objective 0.000000e+00, 116 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    6  461.08333    0.00000   100%     -    0s
+H    0     0                     310.3690476    0.00000   100%     -    0s
+H    0     0                      41.0833333    0.00000   100%     -    0s
+     0     0    0.00000    0   18   41.08333    0.00000   100%     -    0s
+H    0     0                       1.6845238    0.00000   100%     -    0s
+H    0     0                       0.4428571    0.00000   100%     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  MIR: 3
+  Flow cover: 4
+  Relax-and-lift: 1
+
+Explored 1 nodes (255 simplex iterations) in 0.07 seconds (0.02 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 6: 0 0.442857 1.68452 ... 461.083
+
+Optimal solution found (tolerance 5.00e-02)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
